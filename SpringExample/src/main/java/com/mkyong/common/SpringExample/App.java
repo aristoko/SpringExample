@@ -14,8 +14,8 @@ public class App {
 		HelloWorld obj = (HelloWorld) applicationContext.getBean("helloBean");
 		obj.printHello();
 		
-//		IOutputGenerator output = new CsvOutputGenerator();
-//    	output.generateOutput();
+		IOutputGenerator output = new CsvOutputGenerator();
+	    	output.generateOutput();
     	
 
     	OutputHelper output = (OutputHelper)applicationContext.getBean("outputHelper");
